@@ -16,6 +16,8 @@
 		DD6321A7248739BB00661BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6321A5248739BB00661BD2 /* LaunchScreen.storyboard */; };
 		DD6321B2248739BB00661BD2 /* SelfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6321B1248739BB00661BD2 /* SelfiegramTests.swift */; };
 		DD6321BD248739BB00661BD2 /* SelfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6321BC248739BB00661BD2 /* SelfiegramUITests.swift */; };
+		DD6321CB24873D0200661BD2 /* SelfieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6321CA24873D0200661BD2 /* SelfieStore.swift */; };
+		DD6321CD248741D000661BD2 /* SelfieStoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6321CC248741D000661BD2 /* SelfieStoreTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DD6321B8248739BB00661BD2 /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6321BC248739BB00661BD2 /* SelfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramUITests.swift; sourceTree = "<group>"; };
 		DD6321BE248739BB00661BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6321CA24873D0200661BD2 /* SelfieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStore.swift; sourceTree = "<group>"; };
+		DD6321CC248741D000661BD2 /* SelfieStoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStoreTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				DD63219C248739B900661BD2 /* MasterViewController.swift */,
 				DD63219E248739B900661BD2 /* DetailViewController.swift */,
 				DD6321A0248739B900661BD2 /* Main.storyboard */,
+				DD6321CA24873D0200661BD2 /* SelfieStore.swift */,
+				DD6321CC248741D000661BD2 /* SelfieStoreTest.swift */,
 				DD6321A3248739BB00661BD2 /* Assets.xcassets */,
 				DD6321A5248739BB00661BD2 /* LaunchScreen.storyboard */,
 				DD6321A8248739BB00661BD2 /* Info.plist */,
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD632199248739B900661BD2 /* AppDelegate.swift in Sources */,
+				DD6321CB24873D0200661BD2 /* SelfieStore.swift in Sources */,
 				DD63219B248739B900661BD2 /* SceneDelegate.swift in Sources */,
 				DD63219D248739B900661BD2 /* MasterViewController.swift in Sources */,
 				DD63219F248739B900661BD2 /* DetailViewController.swift in Sources */,
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6321B2248739BB00661BD2 /* SelfiegramTests.swift in Sources */,
+				DD6321CD248741D000661BD2 /* SelfieStoreTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
