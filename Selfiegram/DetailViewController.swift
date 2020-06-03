@@ -1,0 +1,40 @@
+//
+//  DetailViewController.swift
+//  Selfiegram
+//
+//  Created by 旌榮 凌 on 2020/6/3.
+//  Copyright © 2020 旌榮 凌. All rights reserved.
+//
+
+import UIKit
+
+class DetailViewController: UIViewController {
+
+    @IBOutlet weak var detailDescriptionLabel: UILabel!
+
+
+    func configureView() {
+        // Update the user interface for the detail item.
+        if let detail = detailItem {
+            if let label = detailDescriptionLabel {
+                label.text = detail.description
+            }
+        }
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        configureView()
+    }
+
+    var detailItem: NSDate? {
+        didSet {
+            // Update the view.
+            configureView()
+        }
+    }
+
+
+}
+
